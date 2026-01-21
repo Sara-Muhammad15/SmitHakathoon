@@ -1,92 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-       <link rel="stylesheet" href="./style.css">
-    <title>hakathoon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Hackathon</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+<!-- //////////////////// header -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-lg">
-    <img src="./img/Group 237737.png" alt="">
-    <a class="navbar-brand" href="#">Zarrin</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <img src="./img/Group 237737.png" alt="" height="40">
+    <a class="navbar-brand ms-2" href="#">Zarrin</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center gap-5">
+      <ul class="navbar-nav ms-auto align-items-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+        <li class="nav-item"><img src="./img/Shape.png" alt="" height="25"></li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <button class="btn text-white" style="background-color: rgb(172, 97, 241);">
+            Contact Us
+          </button>
         </li>
-          <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
-        </li>  
-      <img src="./img/Shape.png" alt="" style="height: 30px; width: 30px;">
-
-       <input class="btn btn-" type="submit" value="Contact Us" style="background-color: rgb(172, 97, 241);">
-
       </ul>
-    
     </div>
   </div>
 </nav>
-<!-- //////////////////////////////////////////////////////// -->
 
-<section class="container-xxl p-5">
-    <div class="hero">
+<!-- ///////////////////////////////////////////// -->
+<section class="container-xxl py-5" style="background-color: rgb(151, 77, 216); color: aliceblue;">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-6 col-12 text-center text-lg-start text-lg-center">
+      <p>Featured Post</p>
+      <h1>How AI will</h1>
+      <h1>Change the Future</h1>
+      <p>The future of AI will see home robots having enhanced intelligence.</p>
+      <button class="btn btn-light">Read more</button>
+    </div>
 
-  <div class="">
-    <p>Featured Post</p>
-   <h1>How AI will </h1>
-   <h1>Change the Future</h1>
-
-   <p>The future of AI will see home robots having enhanced  <br>intelligence, increased capabilities, and becoming more  <br>
-    personal and possibly cute. For example, home robots  <br> will overcome navigation, direction</p>
-  <button type="button" class="btn btn-light">Read more</button>
-
-
+    <div class="col-lg-6 col-12 text-center">
+      <img src="./img/Container.png" class="img-fluid" alt="">
+    </div>
   </div>
-    <div class="imgai">
-<img src="./img/Container.png" alt="" class="">
-    </div>
-
-    </div>
-
-    
-</section >
-
-<!-- //////////////////////////////////////////////////// -->
-
-
-
-<section class="container-xxl">
- <img src="./img/boyimg.png" alt="" style="margin-left: 200px; width: 900px; height: 400px;" class="boy"> 
-
-<div class="second">
-    <div class="bg-light p-5 rounded">
-    <p class="fw-bolder">DEVELOPMENT</p>
-    <h3>How to make a Game look more attractive with</h3>
-    <h3> New VR & AI Technology</h3>
-    <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
-</p>
-<button style="color: blueviolet;" type="button" class="btn btn-light btn-sm ">Read More</button >
-</div>
-</div>
-
 </section>
 
+<!-- /////////////////////////////////////////////////// -->
+<section class="container-xxl py-5">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-8 col-12">
+      <img src="./img/boyimg.png" class="img-fluid rounded" alt="">
+    </div>
+
+    <div class="col-lg-4 col-12 ">
+      <div class="bg-light p-4 rounded ">
+        <p class="fw-bolder">DEVELOPMENT</p>
+       
+        <h4>How to make a Game look more attractive with</h4>
+        <h4>New VR & AI Technology</h4>
+        <p>Google has been investing in AI for many years.</p>
+        <button class="btn btn-light btn-sm text-primary">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////////////// -->
+
+<section class="container-xxl py-5">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-6 col-12">
+      <h1 class="fw-bolder">Our Recent Post</h1>
+      <img src="./img/boyimg.png" class="img-fluid rounded" alt="">
+    </div>
+
+    <div class="col-lg-6 col-12">
+      <p class="fw-bolder">DEVELOPMENT</p>
+      <h4>How to make a Game look more attractive with</h4>
+      <h4>New VR & AI Technology</h4>
+      <p>Google has been investing in AI for many years.</p>
+    </div>
+  </div>
+</section>
+  
 
 
 
 
+<section class="container-xxl py-5">
+
+  <h1 class="mb-4">Popular Post</h1>
+
+  
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
+    <div class="col">
+    
+      <div class="card h-100">
+        <img src="./img/Image Placeholder.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/two.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/three.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/4img.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+<div class="col">
+      <div class="card h-100">
+        <img src="./img/5img.png" class="card-img-top">
+        <div class="card-body">
+        
+        
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+ <div class="col">
+      <div class="card h-100">
+        <img src="./img/6img.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/7img.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/8img.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/9img.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Supporting text for the card.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- ////////////////////////////////////////// -->
+
+<section class="container-xxl py-5">
+  <div class="row justify-content-center">
+    
+    <div class="col-lg-8 col-12 text-center text-white p-5 rounded"
+      style="background-color: rgb(151, 73, 223);">
+      <h2>Get our stories delivered</h2>
+      <h2>to your inbox weekly</h2>
+
+      <div class="d-flex flex-column flex-md-row gap-2 justify-content-center my-3">
+        
+        <button class="btn btn-light">Your Email</button>
+        <button class="btn btn-outline-light">Get started</button>
+      </div>
 
 
 
 
+      <p class="small">Get a response tomorrow if you submit by 9pm today.</p>
+    </div>
+  </div>
+</section>
 
+<!-- ///////////////////////////////////////  -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
 </body>
 </html>
